@@ -1,0 +1,71 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  width: 100vw;
+  overflow: hidden;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+.phoneContainer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.phoneContainer .container ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.phoneContainer .container ul li {
+  line-height: 30px;
+  font-size: small;
+  margin-right: 10px;
+}
+
+.phoneContainer .container ul li .bi {
+  color: #00c7aa;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+header {
+  height: 100px;
+  background-color: #00c7aa;
+}
+
+header .logo {
+  /* background-color: white; */
+  width: 200px;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .nav {
+  width: 60%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .nav li a {
+  font-size: 14px;
+  line-height: 100px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+header .nav li a:hover{
+  color: #000000;
+}
